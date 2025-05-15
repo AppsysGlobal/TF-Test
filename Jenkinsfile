@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-org/your-repo.git'
+                git branch: 'main', url: 'https://github.com/AppsysGlobal/TF.git'
             }
         }
 
