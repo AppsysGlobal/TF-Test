@@ -1,4 +1,5 @@
 provider "oci" {
+  config_file         = "/var/lib/jenkins/.oci/config"
   config_file_profile = "DEFAULT"
 }
 
